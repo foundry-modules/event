@@ -3,6 +3,7 @@ all: create-script-folder modules
 include ../../build/modules.mk
 
 MODULE = event
+MODULARIZE_OPTIONS = -jq
 
 modules:
 	make event/drag
