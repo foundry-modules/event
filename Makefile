@@ -8,8 +8,8 @@ MODULARIZE_OPTIONS = -jq
 modules:
 	make event/drag
 	make event/drop
-	make event/linger
-	make event/wheel
+	# make event/linger
+	# make event/wheel
 
 event/%:
 	make init-event/$* pre-event/$* post-event/$* 
